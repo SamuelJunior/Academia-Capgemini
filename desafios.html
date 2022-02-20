@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modelo de Exercício</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <header>
+        <h1>Desafio Capgemini</h1>
+    </header>
+
+    <section>
+        <h1> Desafio 1</h1> 
+        <h6> Escreva um algoritmo que mostre na tela uma escada de tamanho n utilizando o caractere * e espaços. A base e altura da escada devem ser iguais ao valor de n. A última linha não deve conter nenhum espaço. </h6>
+        <div>
+
+            <p> Entrada:
+                <input type="number" name="escada" id="escada" min="0">
+            </p>
+
+            <p> <input type="button" value="Verificar" onclick="questao1()"></p>
+        </div>
+
+        <div id="res1">
+            Saída: 
+        </div>
+    </section>
+
+    <section>
+        <h1>Desafio 2</h1>
+        <h6>Débora se inscreveu em uma rede social para se manter em contato com seus amigos. A página de cadastro exigia o preenchimento dos campos de nome e senha, porém a senha precisa ser forte. O site considera uma senha forte quando ela satisfaz os seguintes critérios:<br/><br/>
+            Possui no mínimo 6 caracteres.<br/>
+            Contém no mínimo 1 digito.<br/>
+            Contém no mínimo 1 letra em minúsculo.<br/>
+            Contém no mínimo 1 letra em maiúsculo.<br/>
+            Contém no mínimo 1 caractere especial. <br/>
+            Os caracteres especiais são: !@#$%^&*()-+<br/><br/>
+            Débora digitou uma string aleatória no campo de senha, porém ela não tem certeza se é uma senha forte. Para ajudar Débora, construa um algoritmo que informe qual é o número mínimo de caracteres que devem ser adicionados para uma string qualquer ser considerada segura.
+            </h6>
+        <div>
+            <p> Entrada:
+                <input name="senha" id="senha" min="0">
+            </p>
+
+            <p> <input type="button" value="Verificar" onclick="questao2()"></p>
+        </div>
+
+        <div id="res2">
+            Saída:
+        </div>
+    </section>  
+
+    <section>
+        <h1>Desafio 3</h1>
+        <h6> Duas palavras podem ser consideradas anagramas de si mesmas se as letras de uma palavra podem ser realocadas para formar a outra palavra. Dada uma string qualquer, desenvolva um algoritmo que encontre o número de pares de substrings que são anagramas.</h6>
+        <div>
+            <p> Entrada:
+                <input name="palavra" id="palavra" min="0">
+            </p>
+
+            <p> <input type="button" value="Verificar" onclick="questao3()"></p>
+        </div>
+
+        <div id="res3">
+            Saída:
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; Samuel Rufino</p>
+    </footer>
+
+    <script src="index1.js"></script>
+    <script src="index2.js"></script>
+    <script src="index3.js"></script>
+
+</body>
+</html>
