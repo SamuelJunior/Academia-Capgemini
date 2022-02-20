@@ -4,9 +4,7 @@
 
 Repositório dedicado ao desafio de programação Capgemini
 
-Como executar: Os código pode ser execudado com qualquer Browser ou IDE que suporte a execução das tecnologias HTML, CSS e JS.
-
-Abrirá uma interface escrita em HTML com as respectivas questões com input de entrada e o botão de execução chamado "Verificar"
+Como executar: Extraia o projeto em uma pasta. Os códigos podem ser execudado com qualquer Browser ou IDE que suporte a execução das tecnologias HTML, CSS e JS. Ao executar o HTML abrirá uma interface escrita em HTML e CSS com as respectivas questões com input de entrada e o botão de execução chamado "Verificar" que acionará o JS para a resolução dos desafios.
 
 Insira a entrada de teste e clique no botão "verificar" para gerar o resultado.
 
